@@ -1,0 +1,84 @@
+/*.main{
+	 background: url(img/bg.jpg) center center no-repeat scroll;
+	background-size:cover;
+	position: relative;
+}
+*/
+image
+{
+	width: 100%;
+    height: auto;
+}
+.welcome-message{
+	,margin-top: 4.5em; 
+	font-family: Times New Roman;
+	
+}
+.welcome-message h1{
+	 font-size: 70px;
+  color: black;
+  font-weight: 400;
+  margin: 0 0 24px;
+
+}
+.welcome-message h2{
+font-size: 40px;
+  color: black;
+  font-weight: 400;
+  margin: 0;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.97);
+  border: none;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: .75em 0;
+}
+.btn{
+padding: 1em 3em;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f56363;
+  line-height: 1.5;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+ 
+}
+.features { overflow-x: hidden; }
+.features div[class="row"]:nth-child(1),
+.features div[class="row"]:nth-child(2) { margin-bottom: 3em; }
+
+.features article { margin-top: 1.5em; }
+
+.features article h2 {
+  font-size: 24px;
+  margin: 24px 0 12px;
+}
+
+
+.features div[class="row"]:nth-child(3) .col-md-4 article { margin-bottom: 1.5em; }
