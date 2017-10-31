@@ -9,6 +9,7 @@
     <title>Pixor</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 <div id="main-container">
@@ -48,19 +49,23 @@
         </section>
     </header>
     <!--welcome message end-->
+    
     <div id="trigger"></div>
+    
+    <!-- Pixorr Logo -->
+    <div id="pixorr-logo" class="welcome-message">
+        <img id="pixorr-logo-image" class="stylel" src="img/pixorrlogo.jpg" width="174" height="174" align="center;">
+    </div>
+
     <!--Features-->
     <div id="features-container" class="features section-spacing">
-        <div class="container">
-            <!--feature 1-->
-
+        <!--feature 1-->
+        <div class="container" id="feature-1">
             <div class="row">
-                <div id="pixorr-logo" class="welcome-message">
-                    <img id="pixorr-logo-image" class="stylel" src="img/pixorrlogo.jpg" width="174" height="174" align="center;">
+                <div class="col-md-8 col-lg-push-5 text-center wow" id="feature-1-image" data-wow-duration="4s" data-wow-offset="10"> 
+                    <img src="img/1.png" width="390" height="200" alt="feature" > 
                 </div>
-
-                <div class="col-md-8 col-lg-push-5 text-center"> <img src="img/1.png" width="390" height="200" alt="feature" > </div>
-                <div class="col-md-4 col-lg-pull-7">
+                <div class="col-md-4 col-lg-pull-7 wow" id="feature-1-text" data-wow-offset="10" data-wow-duration="4s>
                     <article class="artstyle">
                         <b><h2>Discover Everyday</h2></b>
                         <p>All you need to do is Open a New Tab in</p>
@@ -73,10 +78,12 @@
         <!--feature 1 end-->
 
         <!--feature 2-->
-        <div class="container">
+        <div class="container" id="feature-2">
             <div class="row" style="float: right;">
-                <div class="col-lg-7 text-center"> <img src="img/2.png" alt="feature" width="390" height="200"> </div>
-                <div class="col-lg-5">
+                <div class="col-lg-7 text-center wow" id="feature-2-image" data-wow-duration="4s" data-wow-offset="10"> 
+                    <img src="img/2.png" alt="feature" width="390" height="200">
+                </div>
+                <div class="col-lg-5 wow" id="feature-2-text" data-wow-duration="4s" data-wow-offset="10">
                     <article class="artstyle2">
                         <b><h2>All Your Brush Needs!</h2></b>
                         <p>We’ve got you covered! Save time searching</p>
@@ -85,14 +92,16 @@
                 </div>
             </div>
         </div>
-        <!--container-->
+        <!--container end-->
         <!--feature 2 end-->
 
         <!--feature 3-->
-        <div class="container">
+        <div class="container" id="feature-3">
             <div class="row" style="margin-top: 600px;" >
-                <div class="col-md-7 col-lg-push-5 text-center"> <img src="img/3.png" width="390" height="200" alt="feature"> </div>
-                <div class="col-md-5 col-lg-pull-7">
+                <div class="col-md-7 col-lg-push-5 text-center wow" id="feature-3-image" data-wow-duration="4s" data-wow-offset="10"> 
+                    <img src="img/3.png" width="390" height="200" alt="feature"> 
+                </div>
+                <div class="col-md-5 col-lg-pull-7 wow" id="feature-3-text" data-wow-offset="10" data-wow-duration="4s>
                     <article class="artstyle3">
                         <b><h2>Create Collections</h2></b>
                         <p>Found what you were looking for? Create</p>
@@ -100,9 +109,9 @@
                     </article>
                 </div>
             </div>
-            <!--feature 3 end-->
         </div>
         <!--container end-->
+        <!--feature 3 end-->
     </div>
     </section>
     <!--Features end-->
@@ -124,13 +133,14 @@
 </div>
 <!--Scripts-->
 <!--bootstrap scripts-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/lib/jquery.3.2.1.min.js"></script>
+<script src="js/lib/bootstrap.3.3.7.min.js"></script>
 <!--animation scripts-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="js/lib/TweenMax.min.js"></script>
+<script src="js/lib/ScrollMagic.min.js"></script>
+<script src="js/lib/animation.gsap.min.js"></script>
+<script src="js/lib/debug.addIndicators.min.js"></script>
+<script src="js/lib/wow.1.1.2.min.js"></script>
 <script src="/js/lib/iscroll-probe.js"></script>
 <!--custom scripts-->
 <script src="js/script.js"></script>
