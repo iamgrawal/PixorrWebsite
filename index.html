@@ -3,9 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
-
     <title>Pixor</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -15,12 +14,12 @@
 <div id="main-container">
     <header class="main">
         <div class="container">
-            <nav>
-                <img class="logo-head" alt="logo" src="img/pixor1.png" width="120" height="30">
+            <nav class="navstyle" >
+            <img class="logo-head" alt="logo" src="img/pixor1.png" >
                 <ul>
-                    <li><i class="fa fa-facebook" style="font-size:17px;" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-twitter"  style="font-size:17px;" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-instagram"  style="font-size:17px;" aria-hidden="true"></i></li>
+        <li><i class="fa fa-facebook" style="font-size:21px;" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter"  style="font-size:21px;" aria-hidden="true"></i></li>
+     <li><i class="fa fa-instagram" style="font-size:21px;" aria-hidden="true"></i></li>
                 </ul>
             </nav>
         </div>
@@ -29,19 +28,17 @@
 
         <section class="container welcome-message">
             <div class="row">
-                <div class="col-md-12">
-                    <b><h1>Discover graphic resources</h1>
-                        <h1>Whenever you open a new tab</h1></b>
-                    <h2>C'mon! Don't hide the cool stuff </h2>
-                    <h2>share with your friends!</h2><br>
-                    <div>
+                <div class="col-md-12 midstyle">
+                    <h1 style="margin-bottom:0em">Discover graphic resources</h1>
+                        <h1>Whenever you open a new tab</h1>
+                    <p style="margin-bottom:0em">C'mon! Don't hide the cool stuff </p>
+                    <p style="margin-top:0em">share with your friends!</p>
+                    <div style="margin-top: 30px;">
                         <a href="#" class="logo1"><img src="img/fb1.png" width="62" height="55" onmouseover="this.src='img/fb2.png'" onmouseout="this.src='img/fb1.png'"></a>
                         <a href="#" class="logo2"><img src="img/g+1.png" width="60" height="55" onmouseover="this.src='img/g+2.png'" onmouseout="this.src='img/g+1.png'"></a>
                         <a href="#" class="logo3"><img src="img/twi1.png" width="60" height="55" onmouseover="this.src='img/twi2.png'" onmouseout="this.src='img/twi1.png'"></a>
                     </div>
-                    <div class="scrolld">
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </div>
+                    
                 </div>
                 <!--end of column-->
             </div>
@@ -54,22 +51,22 @@
     
     <!-- Pixorr Logo -->
     <div id="pixorr-logo" class="welcome-message">
-        <img id="pixorr-logo-image" class="stylel" src="img/pixorrlogo.jpg" width="174" height="174" align="center;">
+        <img id="pixorr-logo-image" class="stylel" src="img/pixorf.png" width="170" height="170" align="center;">
     </div>
 
     <!--Features-->
-    <div id="features-container" class="features section-spacing">
+    <div id="features-container">
         <!--feature 1-->
-        <div class="container" id="feature-1">
+        <div class="container-fluid" id="feature-1">
             <div class="row">
                 <div class="col-md-8 col-lg-push-5 text-center wow" id="feature-1-image" data-wow-duration="4s" data-wow-offset="10"> 
-                    <img src="img/1.png" width="390" height="200" alt="feature" > 
+                    <img src="img/1.png" width="300" height="200" alt="feature" class="feat1" > 
                 </div>
-                <div class="col-md-4 col-lg-pull-7 wow" id="feature-1-text" data-wow-offset="10" data-wow-duration="4s>
-                    <article class="artstyle">
+        <div class="col-md-4 col-lg-pull-7 wow" id="feature-1-text" data-wow-offset="10" data-wow-duration="4s>
+            <article class= "artstyle">
                         <b><h2>Discover Everyday</h2></b>
                         <p>All you need to do is Open a New Tab in</p>
-                        <p>your Google Chrome and there’s all you need!</p>
+                        <p style="margin-top:0em;">your Google Chrome and there’s all you need!</p>
                     </article>
                 </div>
             </div>
@@ -81,13 +78,13 @@
         <div class="container" id="feature-2">
             <div class="row" style="float: right;">
                 <div class="col-lg-7 text-center wow" id="feature-2-image" data-wow-duration="4s" data-wow-offset="10"> 
-                    <img src="img/2.png" alt="feature" width="390" height="200">
+                    <img src="img/2.png" alt="feature" width="300" height="200">
                 </div>
                 <div class="col-lg-5 wow" id="feature-2-text" data-wow-duration="4s" data-wow-offset="10">
                     <article class="artstyle2">
                         <b><h2>All Your Brush Needs!</h2></b>
                         <p>We’ve got you covered! Save time searching</p>
-                        <p>for the perfect artwork! </p>
+                        <p style="margin-top:0em;">for the perfect artwork! </p>
                     </article>
                 </div>
             </div>
@@ -99,13 +96,13 @@
         <div class="container" id="feature-3">
             <div class="row" style="margin-top: 600px;" >
                 <div class="col-md-7 col-lg-push-5 text-center wow" id="feature-3-image" data-wow-duration="4s" data-wow-offset="10"> 
-                    <img src="img/3.png" width="390" height="200" alt="feature"> 
+                    <img src="img/3.png" width="300" height="200" alt="feature"> 
                 </div>
                 <div class="col-md-5 col-lg-pull-7 wow" id="feature-3-text" data-wow-offset="10" data-wow-duration="4s>
                     <article class="artstyle3">
                         <b><h2>Create Collections</h2></b>
                         <p>Found what you were looking for? Create</p>
-                        <p>collections to use them as reference for future.</p>
+                        <p style="margin-top:0em;">collections to use them as reference for future.</p>
                     </article>
                 </div>
             </div>
@@ -117,16 +114,15 @@
     <!--Features end-->
 
     <section class=endstyle>
-        <h2>It's all you need for your daily dose of creativity and you're </h2>
-        <h2>Still Scrolling?</h2>
+        <p>It's all you need for your daily dose of creativity and you're </p>
+        <p>Still Scrolling?</p>
         <button type="button" class="btn">Install Now</button>
     </section>
 
-    <footer>
-        <div class="container">
+    <footer class="endstyle">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-5"><p>Privacy & Policy Terms and Use
-                    copyright @Brandlitic</p></div>
+                
             </div>
         </div>
     </footer>
