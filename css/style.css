@@ -40,10 +40,14 @@ i{
 	margin-right:15px; 
 }
 
+html{
+	overflow-x: hidden;
+}
 img {
   max-width:auto;
   height: auto;
 }
+
 h1{
 font-size:90px;
 
@@ -63,59 +67,68 @@ nav {
     height:80px
     line height:80px;
 }
+
 nav ul li{
-list-style-type: none;
-display: inline-block;
-padding: 5px;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
 }
+
 nav ul{
 	float: right;
 	margin-right:30px;
 	margin-top: 5px;
 }
+
 .stylel{
 	margin-top: 5px;
-padding-top: 5px;
- border-radius: 15px;
-  border-top-left-radius: 2.2em;
-  border-top-right-radius: 2.2em;
+	padding-top: 5px;
+	border-radius: 15px;
+	border-top-left-radius: 2.2em;
+	border-top-right-radius: 2.2em;
 }
-.welcome-message { margin-top: 4.5em; 
-text-align: center;
- font-family: Arial, Helvetica, sans-serif;}
+
+.welcome-message { 
+	margin-top: 4.5em; 
+	text-align: center;
+ 	font-family: Arial, Helvetica, sans-serif;
+ }
 
 .welcome-message h1 {
-  font-size: 59px;
-  
-  font-weight: 400;
-  margin: 0 0 24px;
-  
+  	font-size: 59px; 
+  	font-weight: 400;
+  	margin: 0 0 24px;
 }
 
 .welcome-message h2 {
-  font-size: 28px;
-  
-  font-weight: 400;
-  margin: 0;
+  	font-size: 28px;
+  	font-weight: 400;
+  	margin: 0;
 }
+
 .welcome-message a{
 	padding: 10px;
 }
+
 .logo{
 	block:inline-block;
 	text-align:center;
 	padding-top: 60px;
 	padding:50px; 
 }
+
 fa fa-facebook:hover{
-color: #3b5998;
+	color: #3b5998;
 }
+
 fa fa-twitter:hover{
-color: #00b6f1;
+	color: #00b6f1;
 }
+
 fa fa-instagram:hover{
-color:  #007bb6;
+	color:  #007bb6;
 }
+
 feature-style2{
 	float:right;
 }
@@ -123,11 +136,13 @@ feature-style2{
 .artstyle{
 	margin-left: 50px;
 }
+
 .artstyle2{
 text-align: right;
 }
+
 .artstyle3{
-margin-left: 20px
+	margin-left: 20px
 }
 .features article { margin-top:em; }
 
@@ -158,6 +173,7 @@ text-align: left;
 	margin-top: 30%;
 	background-image:"img/FOOTER.png";
 }
+
 .btn{
 	margin-top: 2%;
 	width: 195px;
@@ -167,6 +183,7 @@ text-align: left;
 	color: #fff;
 	border-radius: 10px;
 }
+
 .footers{
 	margin-bottom: 80px;
 }

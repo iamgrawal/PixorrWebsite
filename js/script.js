@@ -1,6 +1,12 @@
 $(document).ready(function () {
     //Init the controller
-    var controller = new ScrollMagic.Controller();
+    var controller = new ScrollMagic.Controller({
+      vertical:true,
+      horizontal: false
+    });
+
+    //Init wow animation object
+    new WOW().init();
 
     //Init wow animation object
     new WOW().init();
