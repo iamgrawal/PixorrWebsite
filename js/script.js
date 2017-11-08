@@ -8,6 +8,9 @@ $(document).ready(function () {
     //Init wow animation object
     new WOW().init();
 
+    //Init wow animation object
+    new WOW().init();
+
     //pin the pixorr logo
     new ScrollMagic.Scene({
         triggerElement: '#features-container',
