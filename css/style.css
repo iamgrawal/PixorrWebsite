@@ -11,7 +11,16 @@
  	margin-left:0em;
  	margin-right:0em;
  	overflow-x: hidden;
+
  }
+ header {
+    background: #fff;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
 
 .logo-head{
 margin-left:25px;
@@ -27,7 +36,7 @@ width:120px;
 }
 .midstyle{
 	text-align:center;
-	margin-top:10%;
+	margin-top:15%;
 	position: relative;
 	}
 .midstyle p{
@@ -52,9 +61,12 @@ img {
 	height: 100vh;
 	background-size:cover;
 }*/
+.nav-up {
+    top: -70px;
+}
 nav {
     width: 100%;
-    height:80px
+    height:80px;
     line height:80px;
 }
 
@@ -106,7 +118,7 @@ text-align: center;
 	padding: 10px;
 }
 
-.logo{
+.logo {
 	block:inline-block;
 	text-align:center;
 	padding-top: 60px;
@@ -140,9 +152,11 @@ text-align: right;
 
 .artstyle3{
 margin-left:5em;
+padding-bottom: 1em;
 }
 p{
 font-family:monts;
+font-size: 1.2em;
 }
 h2{
 font-family:montserrat;
@@ -164,24 +178,49 @@ text-align: left;
 	height: auto;
 }
 .endstyle{
+	font-size: 1.2em;
 	text-align: center;
-	margin-top: 20%;
-	background-image:url("../img/fu.png");
+	padding-top: 40vh;
+	background-image:url("../img/abc.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 70vh;
+	font-family: montserrat;
+} 
+.textss{
+	margin-left: 4em;
+}
+.texts{
+	float:right;
+	 
+}
+a{
+	color:black;
+}
+a:link{
+	text-decoration: none;
+	
 }
 
 .btn{
 	margin-top: 2%;
-	width: 155px;
-	height: 50px;
+	width: 10em;
+	height: 3em;
 	font-size: 20px;
 	background-color: #000;
 	color: #fff;
 	border-radius: 10px;
 }
-
 .footers{
-	margin-bottom: 80px;
+	font-family: monts;
+	padding-right:1em;
+	padding-left: 1em;
+    font-size: 20px;
 }
+.features-container p{
+font-size: 70%;
+}
+/*
 @media only screen and (max-width: 450px) {
 	 h1{
 		font-size:5em;
@@ -210,4 +249,4 @@ text-align: left;
 		font-size: 20%;
 		color:orange;
 	}
-}
+}*/
